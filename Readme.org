@@ -1,0 +1,14 @@
+* lib_stickyshift.ahk
+
+a stickyshift-key for EWOW
+
+** Usage
+
+Load this library
+
+: #Include lib_stickyshift.ahk
+
+and bind keys.
+
+: #If !ignored_frame() && !cx
+: `;:: sticky_shift()
